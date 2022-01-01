@@ -1,0 +1,44 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.616);
+}
+
+.meal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.meal-description {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.meal-price {
+  font-size: 1.3rem;
+  color: rgb(155, 46, 27);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  width: 6rem;
+  height: 2rem;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  background-color: rgb(155, 46, 27);
+  color: whitesmoke;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.button:hover {
+  border: 2px solid rgb(0, 0, 0);
+}

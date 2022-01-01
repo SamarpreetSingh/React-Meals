@@ -1,0 +1,36 @@
+.card {
+  position: relative;
+  background-color: rgb(252, 252, 252);
+  width: 75rem;
+  max-width: 90%;
+  padding: 1.5rem;
+  margin: 3rem auto;
+  border-radius: 10px;
+}
+
+.animation {
+  animation: bump 500ms ease-in;
+}
+
+@keyframes bump {
+  0% {
+    margin-top: 15rem;
+    opacity: 0;
+  }
+  25% {
+    margin-top: 12rem;
+    opacity: 0.25;
+  }
+  50% {
+    margin-top: 9rem;
+    opacity: 0.5;
+  }
+  75% {
+    margin-top: 6rem;
+    opacity: 0.75;
+  }
+  100% {
+    margin-top: 3rem;
+    opacity: 1;
+  }
+}

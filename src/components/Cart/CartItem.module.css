@@ -1,0 +1,51 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2.5px solid rgb(151, 44, 25);
+  margin: 10px 0;
+}
+
+.item h2 {
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+
+.price {
+  color: rgb(151, 44, 25);
+  font-weight: bold;
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+.value {
+  border: 1px solid black;
+  padding: 1px 7px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 4rem;
+  height: 2rem;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  margin: 0 3px;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(151, 44, 25);
+  cursor: pointer;
+}
+
+.button:hover {
+  font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.summary {
+  position: relative;
+  background-color: black;
+  width: 50rem;
+  padding: 1rem;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 16rem;
+  color: whitesmoke;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.summary h2 {
+  font-size: 2.5rem;
+}
